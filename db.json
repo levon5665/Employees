@@ -1,0 +1,104 @@
+{
+  "departments": [
+    {
+      "name": "Apple",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Google"
+    },
+    {
+      "name": "Microsoft",
+      "id": 4
+    },
+    {
+      "name": "Facebook",
+      "id": 5
+    },
+    {
+      "name": "IBM",
+      "id": 6
+    },
+    {
+      "name": "Instagram",
+      "id": 7
+    },
+    {
+      "name": "Snapchat",
+      "id": 8
+    },
+    {
+      "name": "HP",
+      "id": 9
+    }
+  ],
+  "employees": [
+    {
+      "firstName": "Earl",
+      "lastLame": "Foster",
+      "departmentId": "2",
+      "id": 1
+    },
+    {
+      "firstName": "Gloria",
+      "lastName": "Roberts",
+      "departmentId": "3",
+      "id": 2
+    },
+    {
+      "firstName": "Anne",
+      "lastName": "Torres",
+      "departmentId": "4",
+      "id": 3
+    },
+    {
+      "firstName": "Mark",
+      "lastName": "Parker",
+      "departmentId": "6",
+      "id": 4
+    },
+    {
+      "firstName": "Teresa",
+      "lastName": "Collins",
+      "departmentId": "4",
+      "id": 5
+    },
+    {
+      "firstName": "Benjamin",
+      "lastName": "White",
+      "departmentId": "7",
+      "id": 6
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Rodriguez",
+      "departmentId": "8",
+      "id": 7
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Morgan",
+      "departmentId": "6",
+      "id": 8
+    },
+    {
+      "firstName": "Helen",
+      "lastName": "James",
+      "departmentId": "4",
+      "id": 9
+    },
+    {
+      "firstName": "Eugene",
+      "lastName": "Johnson",
+      "departmentId": "3",
+      "id": 10
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "departmentId": "4",
+      "id": 11
+    }
+  ]
+}

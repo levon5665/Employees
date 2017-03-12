@@ -1,0 +1,99 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+body,#root {
+    height: 100%;
+}
+
+
+.table-striped tr select {
+    background: none;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.table-striped tr th {
+    border: none !important;
+}
+
+.table-striped tr input[type="text"] {
+    width: 30%;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.table-striped tr button {
+    outline: none !important;
+}
+
+.table-striped tr td ,
+.table-striped tr td .panel-body {
+    position: relative;
+}
+
+.table-striped tr td .panel-body {
+    display: flex;
+    justify-content: center;
+}
+
+.table-striped tr td .hidden-block {
+    display: flex;
+    align-items: center;
+}
+.table-striped tr td .hidden-block input {
+    margin-right: 10px;
+    width: 100px;
+    border: 1px solid #eee;
+}
+
+.table-striped tr td .hidden-block .btn-primary {
+    margin-right: 10px;
+}
+
+.table-striped tr td .panel-default {
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    max-width: 240px;
+    left: 0;
+    top: -106px;
+}
+
+.table-striped tr td.open .panel-default {
+    display: inline-flex;
+    -webkit-animation: fadeEffect 0.4s linear;
+    animation: fadeEffect 0.4s linear;
+}
+
+.table-striped tr td .panel-default .panel-body:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: -7px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-striped tr td > span {
+    cursor: pointer;
+} 
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
