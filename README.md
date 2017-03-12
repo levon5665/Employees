@@ -1,5 +1,5 @@
 # Employees
-Simple Employees Managment Platform
+Simple Employees Management Platform
 
 Installation guide
 ```
